@@ -1,0 +1,13 @@
+{
+  "name": "@repo/core",
+  "version": "0.0.1",
+  "type": "module",
+  "module": "index.ts",
+  "main": "index.ts",
+  "exports": {
+    ".": {
+      "types": "./index.ts",
+      "svelte": "./index.ts"
+    }
+  }
+}

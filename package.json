@@ -1,0 +1,14 @@
+{
+  "name": "turborepo-test",
+  "version": "0.0.1",
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev"
+  },
+  "devDependencies": {
+    "svelte": "^4.2.9",
+    "svelte-check": "^3.6.2",
+    "turbo": "^1.11.3",
+    "typescript": "^5.3.3"
+  }
+}
