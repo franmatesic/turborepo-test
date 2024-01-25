@@ -1,7 +1,11 @@
 <script lang="ts">
-    import {Button, counter} from '@repo/core';
+    import {Button, counter} from '@repo/shared';
+
+    function increment() {
+        counter.update((value: number) => value + 1);
+    }
 </script>
 
-<Button on:click={() => counter.update(value => value + 1)}>
+<Button on:click={increment}>
     {$counter}
 </Button>

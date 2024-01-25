@@ -6,7 +6,7 @@
         "^build"
       ],
       "outputs": [
-        ".svelte-kiw/**",
+        ".svelte-kit/**",
         ".vercel/**"
       ]
     },

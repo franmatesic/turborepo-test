@@ -23,9 +23,9 @@ importers:
 
   apps/client:
     dependencies:
-      '@repo/core':
+      '@repo/shared':
         specifier: workspace:*
-        version: link:../../core
+        version: link:../../packages/shared
     devDependencies:
       '@sveltejs/adapter-auto':
         specifier: ^3.1.0
@@ -45,9 +45,9 @@ importers:
 
   apps/other-client:
     dependencies:
-      '@repo/core':
+      '@repo/shared':
         specifier: workspace:*
-        version: link:../../core
+        version: link:../../packages/shared
     devDependencies:
       '@sveltejs/adapter-auto':
         specifier: ^3.1.0
@@ -65,7 +65,7 @@ importers:
         specifier: ^5.0.11
         version: 5.0.12
 
-  core: {}
+  packages/shared: {}
 
 packages:
 
